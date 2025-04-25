@@ -15,7 +15,9 @@ namespace ThreadAula
 
             Console.WriteLine("Thread principal iniciada!");
 
-            ExcutarTarefaLonga();
+            //ExcutarTarefaLonga();
+            Thread t = new Thread(ExcutarTarefaLonga);
+            t.Start();
 
             for (int i = 1; i <=3; i++)
             {
@@ -25,7 +27,6 @@ namespace ThreadAula
 
             Console.WriteLine("Thread principal concluída!");
             Console.ReadKey();
-
 
         }
 
