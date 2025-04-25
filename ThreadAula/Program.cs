@@ -14,7 +14,19 @@ namespace ThreadAula
         {
 
             Console.WriteLine("Thread principal iniciada!");
+
+            ExcutarTarefaLonga();
+
+            for (int i = 1; i <=3; i++)
+            {
+                Console.WriteLine($"Thread principal - etapa {i}");
+                Thread.Sleep(500);
+            }
+
+            Console.WriteLine("Thread principal concluída!");
             Console.ReadKey();
+
+
         }
 
         static void ExcutarTarefaLonga()
@@ -23,7 +35,10 @@ namespace ThreadAula
 
             for (int etapa = 1; etapa <= 5; etapa++)
             {
+                // 1o: printar no Console.
                 Console.WriteLine($"Tarefa longa - etapa {etapa}...");
+
+                // 2o: dorme por mil ciclos (mt rápido)
                 Thread.Sleep(1000);
             }
 
