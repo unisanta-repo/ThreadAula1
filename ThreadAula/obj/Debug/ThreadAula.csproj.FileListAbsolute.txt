@@ -1,0 +1,8 @@
+C:\Users\unisanta\source\repos\ThreadAula\ThreadAula\bin\Debug\ThreadAula.exe.config
+C:\Users\unisanta\source\repos\ThreadAula\ThreadAula\bin\Debug\ThreadAula.exe
+C:\Users\unisanta\source\repos\ThreadAula\ThreadAula\bin\Debug\ThreadAula.pdb
+C:\Users\unisanta\source\repos\ThreadAula\ThreadAula\obj\Debug\ThreadAula.csproj.AssemblyReference.cache
+C:\Users\unisanta\source\repos\ThreadAula\ThreadAula\obj\Debug\ThreadAula.csproj.SuggestedBindingRedirects.cache
+C:\Users\unisanta\source\repos\ThreadAula\ThreadAula\obj\Debug\ThreadAula.csproj.CoreCompileInputs.cache
+C:\Users\unisanta\source\repos\ThreadAula\ThreadAula\obj\Debug\ThreadAula.exe
+C:\Users\unisanta\source\repos\ThreadAula\ThreadAula\obj\Debug\ThreadAula.pdb
