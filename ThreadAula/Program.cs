@@ -25,9 +25,10 @@ namespace ThreadAula
                 Thread.Sleep(500);
             }
 
+            t.Join();
+
             Console.WriteLine("Thread principal concluída!");
             Console.ReadKey();
-
         }
 
         static void ExcutarTarefaLonga()
