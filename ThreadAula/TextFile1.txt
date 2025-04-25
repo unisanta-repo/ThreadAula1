@@ -1,1 +1,3 @@
-﻿
+﻿Concorrência
+
+Race condition: problema na concorrência quando mais de uma thread altera o mesmo valor.
